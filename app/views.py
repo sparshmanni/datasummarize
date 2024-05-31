@@ -26,8 +26,8 @@ def upload(request):
                 send_mail(
                     'Python Assignment - Sparsh Manni',
                     email_body,
-                    'smartaskk101@gmail.com',
-                    ['sparsh1003@gmail.com', 'sprshmanni@gmail.com'],
+                    '**********************',
+                    ['***************', '****************'],
                     fail_silently=False,
                 )
                 return render(request, 'success.html', {'summary': state_summary.to_html(index=False)})
